@@ -1,0 +1,8 @@
+name: emailreg
+version: 0.1
+patches:
+  common-env-features: |
+    "REGISTRATION_EMAIL_PATTERNS_ALLOWED": [
+   "^.*@(.*\\.)?example\\.com$",
+   "(^\\w+\\.\\w+)@school\\.tld$"
+   ]
