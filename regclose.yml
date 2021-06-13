@@ -1,0 +1,5 @@
+name: desabilitar_acesso_estudante
+version: 0.1.0
+patches:
+  common-env-features: |
+    "ALLOW_PUBLIC_ACCOUNT_CREATION": false
